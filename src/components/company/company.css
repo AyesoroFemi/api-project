@@ -1,0 +1,125 @@
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 1300px;
+    margin: 10px auto;
+}
+
+.side-nav {
+    /* background-color: rgb(253, 253, 253); */
+    border-right: 2px solid rgb(230, 224, 224);
+    height: 100%;
+}
+
+p span {
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(27, 26, 26);
+}
+
+p {
+    padding: 0 2rem 0 2rem;
+    color: grey;
+}
+.tags {
+    height: 90vh;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tags div {
+    border-top: 2px solid rgb(230, 224, 224);
+    padding: 12px 0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 700;
+}
+.tags  div:last-child {
+    border-bottom: 2px solid rgb(230, 224, 224);
+}
+.sub-tags{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.sub-tags .icon {
+    padding-left: 2rem;
+}
+.sub-tags a{
+    text-decoration: none;
+    color: black;
+}
+.nav-wrapper {
+    background-color: rgb(253, 253, 253);
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.top-nav a{
+    text-decoration: none;
+  
+}
+
+.top-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 15px;
+    background-color: rgb(25, 124, 186);
+    cursor: pointer;
+}
+.top-link a{
+    font-size: 1.2rem;
+    margin-left: 8px;
+    color: #fff;
+    font-weight: 600;
+}
+.top-link .icon{
+   color: #fff;
+}
+.dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgb(230, 224, 224);
+    width: 150px;
+    padding: 5px 10px
+}
+.dropdown a {
+    text-decoration: none;
+    color: black;
+}
+.dropdown span:last-child{
+    margin-left: 18px;
+    color: rgb(202, 194, 194);
+}
+
+.wrapper-link{
+    margin-top: 2rem;
+    border-top: 2px solid rgb(230, 224, 224);
+    border-bottom: 2px solid rgb(230, 224, 224);
+    padding: 15px 0;
+}
+
+.group-dropdown{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+.group-dropdown a:last-child {
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid grey;
+    color: white;
+}

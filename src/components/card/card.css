@@ -1,0 +1,60 @@
+.card-body{
+    margin: 2rem 2rem 0 2rem;
+    background-color: #fff;
+    padding: .05rem 0;
+    box-shadow: 3px 5px 10px rgb(194, 192, 192);
+}
+
+.card-container {
+    margin: 2rem 0;
+    display: flex;
+    gap: 1.2rem;
+    padding: 0 2rem;
+}
+.card-box{
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+}
+
+.sub-container{
+    transform: translateY(-.3rem);
+}
+.facts {
+    display: flex;
+    transform: translate(-2rem, .5rem);
+}
+
+.fact-letter{
+    font-size: 10px;
+    font-weight: 700;
+}
+.headline {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.price-tag{
+    margin-inline-start: auto; 
+}
+.card-text{
+}
+.card-links{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 0 2rem;
+}
+.card-tag{
+    background-color: rgb(208, 226, 231);
+    padding: 5px 10px;
+    border-radius: 0.9rem;
+    text-decoration: none;
+    color: black;
+}
+.card-file{
+    margin-inline-start: auto; 
+    color: black;
+}
+.card-icons{
+    color: black;
+}
