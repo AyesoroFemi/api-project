@@ -2,7 +2,7 @@
 .wrapper{
     display: grid;
     grid-template-columns: 30% 70%;
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 10px auto;
 }
 
